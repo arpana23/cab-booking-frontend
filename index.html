@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Cab Booking Website</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (e) {
+            e.preventDefault();
+        });
+    </script>
+
+    </script>
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <div class="topbar">
+        <div class="container">
+            <div class="left">
+                <span><i class="bx bx-envalope"></i> UrbanRide@support.com </span>
+                <span><i class="bx bx-phone"></i> (+12) 4223 3434 </span>
+                <span><i class="bx bx-phone"></i> 9822323233 </span>
+            </div>
+            <div class="right">
+                we Provide <b style="color:var(--yellow);">The Best Services</b> & Discounts For You
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">Urban<span>Ride</span></div>
+            <nav id="nav">
+                <ul>
+                    <li><a class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <a class="btn" href="#">Let's Ride Now!</a>
+            <div class="hamburger" id="ham">
+                <i class="bx bx-menu"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-left" data-aos="fade-left">
+                <small style="color:var(--yellow);">UrbanRide Most Trusted Cab</small>
+                <h1>Enjoy Your <br />Comfortable Trip.</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1600s, when an unknown</p>
+                <div class="actions">
+                    <a href="#" class="btn">Getting Started</a>
+                    <a href="#" class="play">
+                        <span><i class="bx bx-play"></i></span>
+                        Play Video
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="hero-right" data-aos="fade-right">
+                <img src="images/car.png">
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form -->
+
+    <section class="booking" data-aos="zoom-in">
+        <div class="box">
+            <form>
+                <div class="field">
+                    <label>Name</label>
+                    <input placeholder="Your Name" />
+                </div>
+                <div class="field">
+                    <label>Phone Number</label>
+                    <input placeholder="Telephone" />
+                </div>
+                <div class="field">
+                    <label>Passengers</label>
+                    <input placeholder="Passengers" />
+                </div>
+                <div class="field">
+                    <label>Pick Up Date</label>
+                    <input type="date" placeholder="Pick Up Date" />
+                </div>
+                <div class="field">
+                    <label>Vehicle</label>
+                    <select>
+                        <option>Select Vehicle</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label>Pick Up Address</label>
+                    <input type="date" placeholder="Start Destination" />
+                </div>
+                <div class="field">
+                    <label>Drop off Address</label>
+                    <input type="date" placeholder="End Destination" />
+                </div>
+                <div class="field" style="justify-content: flex-end;">
+                    <button class="btn" style="height: 50px;">Book Taxi Now</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Offer Section-->
+
+    <section class="offer-section">
+        <div class="container">
+            <div class="section-head" data-aos="zoom-in">
+                <span class="subtitle">what we Offer</span>
+                <h2 class="heading">
+                    We Offer The Best For You <span>.</span>
+                </h2>
+                <p class="desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit erat vel mi lacinia
+                    convallis.
+                </p>
+            </div>
+
+            <div class="offer-wrap">
+                <div class="offer-card dark" data-aos="fade-left">
+                    <div class="card-top">
+                        <div class="icon yellow">
+                            <i class="bx bx-dollar"></i>
+                        </div>
+                        <div>
+                            <h3>Support All Payments</h3>
+                            <p>Lorem Ipsum dolor sit amet .</p>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="logos">
+                        <span><i class="bx bxl-visa"></i></span>
+                        <span><i class="bx bxl-mastercard"></i></span>
+                        <span><i class="bx bxl-apple"></i></span>
+                        <span><i class="bx bxl-paypal"></i></span>
+                    </div>
+
+                </div>
+                <div class="offer-card yellow" data-aos="fade-down">
+                    <div class="card-top">
+                        <div class="icon dark">
+                            <i class="bx bx-check-shield"></i>
+                        </div>
+                        <div>
+                            <h3>Safety First</h3>
+                            <p>Lorem Ipsum dolor sit amet .</p>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="bottom-info">
+                        <span><i class="bx bx-credit-card"></i> Guarantee</span>
+                        <span><i class="bx bx-car"> Quick Ride</i></span>
+                    </div>
+                </div>
+
+                <div class="offer-card light" data-aos="fade-right">
+                    <div class="card-top">
+                        <div class="icon yellow">
+                            <i class="bx bx-mobile"></i>
+                        </div>
+                        <div>
+                            <h3>100% Digital</h3>
+                            <p>Lorem Ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="bottom-info">
+                        <span><i class="bx bxl-apple">Apple</i></span>
+                        <span><i class="bx bx-mobile-alt">Android</i></span>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+    </section>
+
+    <!-- About Section -->
+
+    <section class="about-section">
+        <div class="container">
+            <div class="about-wrap">
+                <div class="about-img" data-aos="fade-right">
+                    <img src="images/about.jpg">
+                    <div class="quote-card">
+                        <p>Lorem ipsum dolor sit amet, Maecenas a eros non dui dignissim porta sit amet eget sem. Donec
+                            et enim a magna varius dignissim.
+                        </p>
+                        <h4>Chase Foster</h4>
+                    </div>
+                </div>
+
+                <div class="about-content" data-aos="fade-right">
+                    <span class="subtitle">About UrbanRide</span>
+                    <h2 class="heading">
+                        Trusted Cab Services In <br /> All Over The World<span>.</span>
+                    </h2>
+                    <p class="desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit erat vel mi lacinia
+                        convallis. Proin eu eleifend justo, in blandit mi. Nunc sit amet nisi neque. In a tellus mattis,
+                        porta ante tincidunt, molestie nisl. Vestibulum finibus at erat in ultricies.
+                    </p>
+
+                    <div class="feature">
+                        <div class="featureicon featuredark">
+                            <i class="bx bx-map-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Long Distance Trip</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit erat
+                                vel mi lacinia convallis. Proin eu eleifend justo, in blandit mi.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="featureicon featureyellow">
+                            <i class="bx bx-taxi"></i>
+                        </div>
+                        <div>
+                            <h4>Taxi Tour Services</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit erat
+                                vel mi lacinia convallis. Proin eu eleifend justo, in blandit mi.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="featureicon featuredark">
+                            <i class="bx bx-support"></i>
+                        </div>
+                        <div>
+                            <h4>24/7 Customer Support</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit erat
+                                vel mi lacinia convallis. Proin eu eleifend justo, in blandit mi.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="divider"></div>
+
+                    <div class="profile">
+                        <img src="images/c1.png">
+                        <div>
+                            <span>We Are Available 24 Hours</span>
+                            <h4>For Booking : <strong>(+62) 2323-22323</strong></h4>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Experience Section -->
+
+    <section class="experience-section">
+        <div class="experience-wrap">
+            <div class="experience-content" data-aos="fade-left">
+                <span class="subtitle">Our Experience</span>
+                <!-- <h2 class="heading" style="color:white"> -->
+                <h2 class="heading">
+                    We Are Experience <br /> Since 1992 Until Now <span>.</span>
+                </h2>
+                <p class="desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dignissim urna non mi tempus
+                    iaculis. Donec convallis mattis magna quis maximus. Vestibulum ullamcorper nunc non sem pellentesque
+                    ultricies. Aliquam velit lectus, interdum at facilisis ac, commodo id magna.
+                </p>
+
+                <div class="skill">
+                    <div class="skil-head">
+                        <span>Taxi Quality</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="bar">
+                        <div class="fill" data-width="95"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skil-head">
+                        <span>Professional Driver</span>
+                        <span>86%</span>
+                    </div>
+                    <div class="bar">
+                        <div class="fill" data-width="86"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skil-head">
+                        <span>Affordable Pricing</span>
+                        <span>82%</span>
+                    </div>
+                    <div class="bar">
+                        <div class="fill" data-width="82"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skil-head">
+                        <span>Easy Booking</span>
+                        <span>86%</span>
+                    </div>
+                    <div class="bar">
+                        <div class="fill" data-width="86"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="experience-image" data-aos="fade-right">
+                <img src="images/exp.jpg" />
+
+                <div class="info-card">
+                    <h4>We Provide Best Taxi</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem distinctio quibusdam autem unde
+                        vitae itaque est dolor fugiat deleniti enim iure facilis vel error at, hic voluptatum voluptate
+                        adipisci reiciendis.
+                    </p>
+                    <a href="#">Rent A Taxi</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+
+    <section class="pricing-section">
+        <div class="container">
+            <div class="section-head" data-aos="zoom-in">
+                <span class="subtitle">Taxi Rates</span>
+                <h2 class="heading">Flexible Taxi Rates <span>.</span></h2>
+                <p class="desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem distinctio quibusdam autem unde
+                    vitae itaque est dolor.
+                </p>
+            </div>
+
+            <div class="pricing-wrap">
+                <!-- Standard -->
+                <div class="price-card light" data-aos="fade-left">
+                    <span class="badge dark">Standard</span>
+                    <p class="card-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <ul>
+                        <li><span>Initial Charge</span><strong>$3.50</strong></li>
+                        <li><span>Dist. Allowance</span><strong>700 m</strong></li>
+                        <li><span>Time Allowance</span><strong>120 sec</strong></li>
+                        <li><span>Up to 15Kms</span><strong>$1.45/km</strong></li>
+                        <li><span>Booking Fee</span><strong>$0.62/min</strong></li>
+                        <li><span>Extra Passanger</span><strong>$1.40/km</strong></li>
+                    </ul>
+                    <a href="#" class="btn dark">Booking Now</a>
+                </div>
+
+                <!-- Premium -->
+                <div class="price-card dark active" data-aos="fade-down">
+                    <span class="badge yellow">Premium</span>
+                    <p class="card-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <ul>
+                        <li><span>Initial Charge</span><strong>$3.50</strong></li>
+                        <li><span>Dist. Allowance</span><strong>700 m</strong></li>
+                        <li><span>Time Allowance</span><strong>120 sec</strong></li>
+                        <li><span>Up to 15Kms</span><strong>$1.45/km</strong></li>
+                        <li><span>Booking Fee</span><strong>$0.62/min</strong></li>
+                        <li><span>Extra Passanger</span><strong>$1.40/km</strong></li>
+                    </ul>
+                    <a href="#" class="btn dark">Booking Now</a>
+                </div>
+
+                <!-- Additional -->
+                <div class="price-card light" data-aos="fade-right">
+                    <span class="badge dark">Additional</span>
+                    <p class="card-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <ul>
+                        <li><span>Initial Charge</span><strong>$3.50</strong></li>
+                        <li><span>Dist. Allowance</span><strong>700 m</strong></li>
+                        <li><span>Time Allowance</span><strong>120 sec</strong></li>
+                        <li><span>Up to 15Kms</span><strong>$1.45/km</strong></li>
+                        <li><span>Booking Fee</span><strong>$0.62/min</strong></li>
+                        <li><span>Extra Passanger</span><strong>$1.40/km</strong></li>
+                    </ul>
+                    <a href="#" class="btn dark">Booking Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Section -->
+
+    <section class="app-section">
+        <div class="container">
+
+            <div class="phones" data-aos="fade-left">
+                <img src="images/app.png">
+            </div>
+
+            <div class="content" data-aos="fade-right">
+                <span class="subtitle">Download UrbanRide App</span>
+                <h2 class="heading">Download UrbanRide <br /> From Your Gadget. </h2>
+                <p class="desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit erat
+                    vel mi lacinia convallis. Proin eu eleifend justo, in blandit mi.
+                </p>
+                <div class="store-btns">
+                    <img src="images/ios.jpg">
+                    <img src="images/and.jpg">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Service Section -->
+
+    <section class="services" data-aos="zoom-in">
+        <span class="subtitle">Our Services</span>
+        <h2 class="heading">Interesting Services For You <span>.</span></h2>
+        <p class="desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit erat
+            vel mi lacinia convallis. Proin eu eleifend justo, in blandit mi.
+        </p>
+
+        <div class="service-grid">
+            <div class="service-card active">
+                <div class="icon-box">
+                    <i class="bx bxs-credit-card-alt"></i>
+                </div>
+                <h3>Online Payment</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit erat
+                    vel mi lacinia convallis. Proin eu eleifend justo, in blandit mi.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="service-card">
+                <div class="icon-box">
+                    <i class="bx bxs-check-shield"></i>
+                </div>
+                <h3>Safety Guarantee</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit erat
+                    vel mi lacinia convallis. Proin eu eleifend justo, in blandit mi.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="service-card">
+                <div class="icon-box">
+                    <i class="bx bx-map-alt"></i>
+                </div>
+                <h3>Quick Ride</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit erat
+                    vel mi lacinia convallis. Proin eu eleifend justo, in blandit mi.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="service-card">
+                <div class="icon-box">
+                    <i class="bx bx-pencil"></i>
+                </div>
+                <h3>Free Quatation</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit erat
+                    vel mi lacinia convallis. Proin eu eleifend justo, in blandit mi.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="service-card">
+                <div class="icon-box">
+                    <i class="bx bx-award"></i>
+                </div>
+                <h3>Cleared Drivers</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit erat
+                    vel mi lacinia convallis. Proin eu eleifend justo, in blandit mi.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="service-card">
+                <div class="icon-box">
+                    <i class="bx bxs-discount"></i>
+                </div>
+                <h3>Discount & Promote</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit erat
+                    vel mi lacinia convallis. Proin eu eleifend justo, in blandit mi.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+
+    <section class="testimonial-section">
+        <span class="subtitle" data-aos="zoom-in">Customers Feedback</span>
+        <h2 class="heading" data-aos="zoom-in">Our Customer Review</h2>
+        <p class="desc" data-aos="zoom-in">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit erat
+            vel mi lacinia convallis. Proin eu eleifend justo, in blandit mi.
+        </p>
+
+        <div class="swiper" data-aos="fade-right">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="testimonial">
+                        <img src="images/t1.jpg" />
+                        <div class="quote">"</div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit erat
+                            vel mi lacinia convallis. Proin eu eleifend justo, in blandit mi.
+                        </p>
+                        <h4>Bob Walter</h4>
+                        <span>Manager</span>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="testimonial">
+                        <img src="images/t2.jpg" />
+                        <div class="quote">"</div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit erat
+                            vel mi lacinia convallis. Proin eu eleifend justo, in blandit mi.
+                        </p>
+                        <h4>Xavier Mcfaria</h4>
+                        <span>Manager</span>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="testimonial">
+                        <img src="images/t3.jpeg" />
+                        <div class="quote">"</div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit erat
+                            vel mi lacinia convallis. Proin eu eleifend justo, in blandit mi.
+                        </p>
+                        <h4>Ava Brown</h4>
+                        <span>Manager</span>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="testimonial">
+                        <img src="images/t4.jpg" />
+                        <div class="quote">"</div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit erat
+                            vel mi lacinia convallis. Proin eu eleifend justo, in blandit mi.
+                        </p>
+                        <h4>Ricky John</h4>
+                        <span>Manager</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Blog Section -->
+
+    <section class="blog-section">
+        <div class="blog-container">
+            <div class="blog-header" data-aos="zoom-in">
+                <div>
+                    <span class="subtitle">Our News</span>
+                    <h2 class="heading">Blog & Articles</h2>
+                </div>
+                <a href="#" class="btn">Show All News</a>
+            </div>
+
+            <div class="blog-row">
+                <div class="blog-card" data-aos="fade-right">
+                    <div class="blog-img">
+                        <img src="images/b1.jpg">
+                        <span class="blog-tag">Booking</span>
+                    </div>
+                    <div class="blog-content">
+                        <h3>A Variety Of Safe Taxi Services On Your Way</h3>
+                        <p class="desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris efficitur tellus velit. Nunc
+                            finibus pharetra velit, quis varius justo volutpat et.
+                        </p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+
+                <div class="blog-card" data-aos="fade-down">
+                    <div class="blog-img">
+                        <img src="images/exp.jpg">
+                        <span class="blog-tag">Discount</span>
+                    </div>
+                    <div class="blog-content">
+                        <h3>How To Get Discount With Your Mobile App</h3>
+                        <p class="desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris efficitur tellus velit. Nunc
+                            finibus pharetra velit, quis varius justo volutpat et.
+                        </p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+
+                <div class="blog-card" data-aos="fade-left">
+                    <div class="blog-img">
+                        <img src="images/b2.jpg">
+                        <span class="blog-tag">Services</span>
+                    </div>
+                    <div class="blog-content">
+                        <h3>10 Tips To Catch A Taxi In Your City Easily</h3>
+                        <p class="desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris efficitur tellus velit. Nunc
+                            finibus pharetra velit, quis varius justo volutpat et.
+                        </p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-col">
+                <h4>Address</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p>UrbanRide@support.com</p>
+                <p>(+62) 3434-3344</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Work</h4>
+                <p>Mon - sat : 07:50 - 17:50</p>
+                <p>Sun : 09:00 - 17:00</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <div class="newsletter">
+                    <input type="email" placeholder="Email Address">
+                    <button class="btn"><i class="bx bx-send"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-bottom-inner">
+                <p>@ 2026 UrbanRide</p>
+                <div>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Term Condition</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-top">
+            <a href="#">
+                <i class="bx bxs-chevron-up"></i>
+            </a>
+        </div>
+    </footer>
+
+
+    <!--Swiper Js-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--Aos Js-->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="custom.js"></script>
+
+</body>
+
+</html>
