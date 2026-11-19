@@ -2,6 +2,10 @@
 
 https://cab-booking-w.netlify.app/  
 
+# Screenshot
+<img width="1920" height="862" alt="cab" src="https://github.com/user-attachments/assets/84f86db5-905f-461f-b914-2e0af19eda88" />
+
+
 # Cab Booking Website
 
 A responsive cab booking website frontend designed to provide users with a simple, intuitive, and user-friendly experience for booking cab rides. The project is built using HTML5, CSS3, and JavaScript, with a focus on responsive design, clean UI, and interactive elements.
